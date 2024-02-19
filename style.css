@@ -25,11 +25,7 @@
     font-family: Roboto-Regular;
 }
 
-body {
-    background-image: url(./assets/imgs/bg.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 
 a {
     text-decoration: none;
@@ -39,25 +35,26 @@ a {
     padding: 20px;
 }
 
-.s-nav-wrapper
-.social-navbar .left p,.social-navbar .left a {
+.s-nav-wrapper .social-navbar .left p,
+.social-navbar .left a {
     font-size: 12px;
     font-family: Roboto-Bold !important;
 }
+
 .social-navbar .right {
     text-align: end;
-    
+
 }
+
 .social-navbar .right i {
-border: 1px solid var(--white-color);
-border-radius: 100%;
-padding: 8px;
-background-color: var(--white-color);
+    border: 1px solid var(--white-color);
+    border-radius: 100%;
+    padding: 8px;
+    background-color: var(--white-color);
 }
 
-.social-navbar{
+.social-navbar {}
 
-}
 .social-navbar a {
     color: var(--black-color);
 }
@@ -66,6 +63,10 @@ background-color: var(--white-color);
     color: var(--para-color);
 }
 
+.navbar .navbar-brand i{
+    font-size: 40px;
+
+}
 .navbar a {
     margin-right: 20px;
 }
@@ -77,5 +78,46 @@ background-color: var(--white-color);
 .navbar .btn-wrapper a {
     background-color: var(--primary-color);
     margin-right: 0;
+
+}
+.banner .text-wrapper{
+    margin-top: 100px;
+}
+.banner h1 {
+    font-size: 60px;
+    font-family: Roboto-Bold;
+}
+
+.banner p {
+    color: var(--para-color);
+    font-weight: 500;
+    margin-top: 30px;
+}
+.banner .text-wrapper a{
+    font-family: Roboto-Medium;
+    font-size: 14px;
+    padding: 15px 25px;
+}
+.banner .btn-left {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.banner{
+    background-image: url(./assets/imgs/bg.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.banner .btn-right {
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.detail1 i{
+    font-size: 40px;
+}
+@media screen and (max-width:992px) {
+    .social-navbar {
+        display: none;
+    }
 
 }
