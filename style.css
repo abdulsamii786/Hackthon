@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(./assets/fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(./assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+:root {
+    --primary-color: #fd4c82;
+    --secondary-color: #91c235;
+    --black-color: #000000;
+    --para-color: #999999;
+    --white-color: #fff;
+}
+
+* {
+    font-family: Roboto-Regular;
+}
+
+body {
+    background-image: url(./assets/imgs/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.s-nav-wrapper
+.social-navbar .left p,.social-navbar .left a {
+    font-size: 12px;
+    font-family: Roboto-Bold !important;
+}
+.social-navbar .right {
+    text-align: end;
+    
+}
+.social-navbar .right i {
+border: 1px solid var(--white-color);
+border-radius: 100%;
+padding: 8px;
+background-color: var(--white-color);
+}
+
+.social-navbar{
+
+}
+.social-navbar a {
+    color: var(--black-color);
+}
+
+.social-navbar p {
+    color: var(--para-color);
+}
+
+.navbar a {
+    margin-right: 20px;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar .btn-wrapper a {
+    background-color: var(--primary-color);
+    margin-right: 0;
+
+}
